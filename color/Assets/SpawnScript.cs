@@ -12,7 +12,7 @@ public class SpawnScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		time += Time.deltaTime;
-		if (time > 1f) {
+		if (time > 3f) {
 			Instantiate(prefab, new Vector2(0,200), Quaternion.identity);
 			//HACER STACK
 			time = 0;

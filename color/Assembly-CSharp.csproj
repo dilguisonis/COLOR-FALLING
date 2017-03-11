@@ -45,7 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ColorController.cs" />
+     <Compile Include="Assets\ColorDetection.cs" />
      <Compile Include="Assets\MoveScript.cs" />
+     <Compile Include="Assets\PlayerController.cs" />
      <Compile Include="Assets\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\CameraScript.cs" />
      <Compile Include="Assets\Scripts\TouchDetection.cs" />
